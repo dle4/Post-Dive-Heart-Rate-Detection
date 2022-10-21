@@ -21,7 +21,9 @@ The code follows a short term autocorrelation algorithm shown in Fig 1. to calcu
 Usage
 ------------
 To perform HRD on all files in a directory use HeartRateEstimation_STAC_v1_2022_02_09.m
-Point -datafilepath- to directory with DU audio files. Set parameters for desired window overlap (default is 0.5 or 50%) and window size (refer to paper for optimal window size, default = 2 seconds). 
+Point -datafilepath- to directory with DU audio files. Set parameters for desired window overlap (default is 0.5 or 50%) and window size (refer to paper for optimal window size, default = 2 seconds). Run script and IHR plots will be made for each DU audio in the file and found in the variable "all_heartrates". 
+
+Code for generating figures from the paper exist in "ForFigures" directory allowing for performing the code on DU audio files with varying or single window sizes. 
 
 License and Citation
 ------------
