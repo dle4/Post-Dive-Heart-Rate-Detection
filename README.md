@@ -6,7 +6,8 @@ News
 ------------
 
 2022/06/13: Repository created.
-2022/06/~: Paper submitted??
+2022/10/03: Paper accepted
+2022/11/14: Paper publish?
 
 Requirements
 ------------
@@ -21,8 +22,14 @@ The code follows a short term autocorrelation algorithm shown in Fig 1. to calcu
 Usage
 ------------
 To perform HRD on all files in a directory use HeartRateEstimation_STAC_v1_2022_02_09.m
-Point -datafilepath- to directory with DU audio files. Set parameters for desired window overlap (default is 0.5 or 50%) and window size (refer to paper for optimal window size, default = 2 seconds). 
+Point -datafilepath- to directory with DU audio files. Set parameters for desired window overlap (default is 0.5 or 50%) and window size (refer to paper for optimal window size, default = 2 seconds). Run script and IHR plots will be made for each DU audio in the file and found in the variable "all_heartrates". 
+
+Code for generating figures from the paper exist in "ForFigures" directory allowing for performing the code on DU audio files with varying or single window sizes. 
 
 License and Citation
 ------------
-Hoang et al. 2022, Automated heart rate detection  in post-dive precordial Doppler ultrasound recordings
+The codes are licensed under GPL-2.0 license.
+
+For any utilization of the code content of this repository, the following paper needs to be cited by the user:
+
+> Hoang et al. 2022, Automated heart rate detection in post-dive precordial Doppler ultrasound recordings, Undersea and Hyperbaric Medicine Journal
