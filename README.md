@@ -27,4 +27,8 @@ Code for generating figures from the paper exist in "ForFigures" directory allow
 
 License and Citation
 ------------
-Hoang et al. 2022, Automated heart rate detection  in post-dive precordial Doppler ultrasound recordings
+The codes are licensed under GPL-2.0 license.
+
+For any utilization of the code content of this repository, the following paper needs to be cited by the user:
+
+> Hoang et al. 2022, Automated heart rate detection in post-dive precordial Doppler ultrasound recordings, Undersea and Hyperbaric Medicine Journal
