@@ -6,7 +6,8 @@ News
 ------------
 
 2022/06/13: Repository created.
-2022/06/~: Paper submitted??
+2022/10/03: Paper accepted
+2022/11/14: Paper publish?
 
 Requirements
 ------------
