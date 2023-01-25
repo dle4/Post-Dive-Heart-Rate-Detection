@@ -5,7 +5,7 @@
 clear; close all; clc;
 %% Data folder pathing
 
-datafilepath ='D:\Projects\Doppler Project\Heart Rate Detection\Lesley_Dataset\Lesley_Dataset';
+datafilepath ='UserSpecifiedPath/UserSpecifiedLocation';
 direc = dir(datafilepath); 
 
 %% parameters
