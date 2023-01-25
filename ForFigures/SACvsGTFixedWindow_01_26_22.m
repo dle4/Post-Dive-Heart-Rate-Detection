@@ -1,5 +1,5 @@
-% Andrew Hoang
-% ahhoang@ncsu.edu
+% Andrew Hoang/David Le
+% ahhoang@ncsu.edu/dle4@email.unc.edu
 % 7/23/2021
 % Short-Term Autocorrelation on Doppler Data
 
