@@ -6,11 +6,11 @@
 %% Housekeeping
 clear; close all; clc;
 cd('D:\Projects\Doppler Project\Heart Rate Detection');
-datafilepath ='D:\Projects\Doppler Project\Heart Rate Detection\Lesley_Dataset\Lesley_Dataset';
+datafilepath ='D:\Projects\Doppler Project\Heart Rate Detection\Dataset\Dataset';
 addpath(genpath(datafilepath));
 
 direc = dir(datafilepath);
-datafilepath2 = 'D:\Projects\Doppler Project\Heart Rate Detection\Lesley_TextData\Lesley_TextData';
+datafilepath2 = 'D:\Projects\Doppler Project\Heart Rate Detection\TextData\TextData';
 addpath(genpath(datafilepath2));
 direc2 = dir(datafilepath2);
 
@@ -18,7 +18,7 @@ direc2 = dir(datafilepath2);
 savefilefolder_1 = 'D:\Projects\Doppler Project\Heart Rate Detection\Results_1_28_22/';
 
 
-[~, files] = xlsread('DUvsLesley.xlsx');
+[~, files] = xlsread('DUvsGT.xlsx');
 files = string(files(2:end,:));
 
 %% Load Data
