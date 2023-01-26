@@ -15,7 +15,7 @@ MATLAB version 2017b or newer
 
 Overview
 ------------
-This repository contains the code described in Hoang et al. 2022, Automated heart rate detection in post-dive precordial Doppler ultrasound recordings. Doppler ultrasound (DU) precordial recordings were measured across 20 dives with varying degrees of venous gas emboli (VGE) presence. Furthermore, recordings were obtained at rest (stationary individual) or with leg flexions to induce VGE influx.
+This repository contains the code described in Hoang et al. 2023, Automated heart rate detection in post-dive precordial Doppler ultrasound recordings. Doppler ultrasound (DU) precordial recordings were measured across 20 dives with varying degrees of venous gas emboli (VGE) presence. Furthermore, recordings were obtained at rest (stationary individual) or with leg flexions to induce VGE influx.
 
 The code follows a short term autocorrelation algorithm to calculate the period between cardiac cycles and estimate the instantaneous heart rate (IHR) for each moment in a recording. 
 
