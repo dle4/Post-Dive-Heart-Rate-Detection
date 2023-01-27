@@ -11,7 +11,7 @@ News
 
 Requirements
 ------------
-MATLAB version 2017b or newer
+MATLAB version 2017b or newer, verified to work with Windows 10
 
 Overview
 ------------
