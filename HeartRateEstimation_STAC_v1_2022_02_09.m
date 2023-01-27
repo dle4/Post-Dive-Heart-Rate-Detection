@@ -91,6 +91,8 @@ for i = 1:size(all_heartrates,2)
     figure(1); 
     plot(all_heartrates(i).InstHR,'r*'); 
     ylim([50,190]); 
+    xlabel('Time (s)'); 
+    ylabel('HR (bpm)'); 
     title(all_heartrates(i).name,'Interpreter','none'); 
     pause;
 
