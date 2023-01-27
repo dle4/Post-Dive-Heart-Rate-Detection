@@ -32,4 +32,4 @@ The codes are licensed under GPL-2.0 license.
 
 For any utilization of the code content of this repository, the following paper needs to be cited by the user:
 
-> Hoang et al. 2023, Automated heart rate detection in post-dive precordial Doppler ultrasound recordings, Undersea and Hyperbaric Medicine Journal
+> Hoang A, Le DQ, Blogg SL, et al. A fully automated algorithm for heart rate detection in post-dive precordial Doppler ultrasound. Undersea Hyperb Med. 2023 First Quarter; 50(1):43-53.
